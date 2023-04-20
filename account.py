@@ -26,7 +26,7 @@ class account:
     def withdraw(self, amount):
         '''
         This allows users to withdrawl money
-        :return: The function will return True or False, True if it worked and False is it failed
+        :return: The function will return True or False, True if it worked and False if it failed
         '''
         if amount <= 0 or amount > self.__balance:
             return False
